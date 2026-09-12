@@ -1,0 +1,8 @@
+2026-09-12 11:09:97 [main] com.ui.listeners.TestListener Test Suite Started 
+2026-09-12 11:09:38 [main] com.ui.pages.HomePage Launching Browser in Headless Mode 
+2026-09-12 11:09:88 [main] com.ui.listeners.TestListener loginExcelTest 
+2026-09-12 11:09:88 [main] com.ui.listeners.TestListener Verifies with the valid user is able to login into application 
+2026-09-12 11:09:88 [main] com.ui.listeners.TestListener [e2e, sanity] 
+2026-09-12 11:09:95 [main] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-12 11:09:20 [main] com.ui.listeners.TestListener loginExcelTest PASSED 
+2026-09-12 11:09:27 [main] com.ui.listeners.TestListener Test Suite Ended 
