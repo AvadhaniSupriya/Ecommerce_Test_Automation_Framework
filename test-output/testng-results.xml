@@ -2,7 +2,7 @@
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-12T11:41:50 IST" name="Default suite" finished-at="2026-09-12T11:44:34 IST" duration-ms="163252">
+  <suite started-at="2026-09-12T12:04:29 IST" name="Default suite" finished-at="2026-09-12T12:04:36 IST" duration-ms="7261">
     <groups>
       <group name="sanity">
         <method signature="LoginTest.loginExcelTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@496bc455]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
@@ -11,13 +11,13 @@
         <method signature="LoginTest.loginExcelTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@496bc455]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2026-09-12T11:41:50 IST" name="Default test" finished-at="2026-09-12T11:44:34 IST" duration-ms="163252">
+    <test started-at="2026-09-12T12:04:29 IST" name="Default test" finished-at="2026-09-12T12:04:36 IST" duration-ms="7261">
       <class name="com.ui.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@496bc455]" started-at="2026-09-12T11:41:52 IST" name="setup" description="Launch the HomePage of the Website" finished-at="2026-09-12T11:44:32 IST" duration-ms="160821" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@496bc455]" started-at="2026-09-12T12:04:30 IST" name="setup" description="Launch the HomePage of the Website" finished-at="2026-09-12T12:04:35 IST" duration-ms="4972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginExcelTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@496bc455]" started-at="2026-09-12T11:44:32 IST" name="loginExcelTest" description="Verifies with the valid user is able to login into application" data-provider="LoginTestExcelDataProvider" finished-at="2026-09-12T11:44:34 IST" duration-ms="1312" status="PASS">
+        <test-method signature="loginExcelTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@496bc455]" started-at="2026-09-12T12:04:35 IST" name="loginExcelTest" description="Verifies with the valid user is able to login into application" data-provider="LoginTestExcelDataProvider" finished-at="2026-09-12T12:04:36 IST" duration-ms="1191" status="PASS">
           <params>
             <param index="0">
               <value>
