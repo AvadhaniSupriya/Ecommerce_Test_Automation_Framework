@@ -21,7 +21,7 @@ public class ExcelReaderUtility {
 		// TODO Auto-generated method stub
 
 		
-		File xlsxFile= new File(System.getProperty("user.dir")+"\\test-data\\"+filename);
+		File xlsxFile= new File(System.getProperty("user.dir")+"//test-data//"+filename);
 		XSSFWorkbook xssfworkBook = null;
 		XSSFSheet xssfSheet = null ;
 		List<User> userList= new ArrayList<User>();

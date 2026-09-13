@@ -106,7 +106,7 @@
                     </suiteXmlFiles>
                     <systemPropertyVariables>
             				<browser>chrome</browser>
-            				<isLambda>true</isLambda>
+            				<isLambda>false</isLambda>
             				<isHeadless>false</isHeadless>
           </systemPropertyVariables>
                 </configuration>
