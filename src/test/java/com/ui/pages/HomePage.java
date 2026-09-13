@@ -2,6 +2,7 @@ package com.ui.pages;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
 import com.constants.Browser;
 import static com.constants.Env.*;
@@ -26,6 +27,22 @@ public final class HomePage extends BrowserUtility{
 
 
 	
+
+
+	public HomePage(WebDriver driver) 
+	{
+		// TODO Auto-generated constructor stub
+		
+		super(driver);
+		logger.info("Launching Browser");
+		maximizeWindow();
+		//goToWebsite(readProperty(QA,"URL"));//this from Properties file
+		goToWebsite(JSONUtility.readJson(QA).getUrl());
+		
+	}
+
+
+
 
 
 	private static final By SIGN_IN_LINK_LOCATOR = By.xpath("//a[contains(text(),\"Sign in\")]");

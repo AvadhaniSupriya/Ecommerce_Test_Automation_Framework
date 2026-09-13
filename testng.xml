@@ -4,6 +4,9 @@
   <test name="UI Test Automation">
     <classes>
        <class name="com.ui.tests.LoginTest"/>
+       <parameter name="browser" value="${browser}"></parameter>
+       <parameter name="isLambda" value="${isLambda}"></parameter>
+       <parameter name="isHeadless" value="${isHeadless}"></parameter>
     </classes>
   </test>
 </suite>

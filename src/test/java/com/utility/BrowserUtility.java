@@ -40,7 +40,11 @@ public abstract class BrowserUtility {
 		if(browserName == Browser.CHROME)
 		{
 			
+			System.out.println("Before set = " + driver.get());
+
 			driver.set(new ChromeDriver());
+
+			System.out.println("After set = " + driver.get());
 		}
 		else if(browserName == Browser.EDGE)
 		{
@@ -111,6 +115,7 @@ public abstract class BrowserUtility {
 	public void maximizeWindow()
 	{
 		
+		System.out.println("Inside maximizeWindow = " + driver.get());
 		driver.get().manage().window().maximize();
 	}
 	
@@ -157,5 +162,9 @@ public abstract class BrowserUtility {
 		
 		return path;
 		
+	}
+	
+	public void quit() {
+	    driver.get().quit();
 	}
 }
