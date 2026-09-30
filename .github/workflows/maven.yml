@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
 
@@ -22,7 +22,7 @@ jobs:
         cache: maven
 
     - name: Running Test Automation Framework with Maven
-      run: mvn test -Dbrowser=chrome -DisLambdaTest=false -DisHeadless=false
+      run: mvn test -Dbrowser=chrome -DisLambdaTest=false -DisHeadless=true
 
     - name: Upload Test Logs
       if: always()
@@ -69,8 +69,8 @@ jobs:
 
         Get-ChildItem -Recurse
 
-    - name: Deploy
-      if: always()
+    - name: Deploy report
+      if: always() && hashFiles('public/extent-reports/**') != ''
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: public/extent-reports/
