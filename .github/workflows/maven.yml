@@ -13,18 +13,20 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v4
+
     - name: Set up JDK 11
       uses: actions/setup-java@v4
       with:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
+
     - name: Running Test Automation Framework with Maven
       run: mvn test -Dbrowser=chrome -DisLambdaTest=false -DisHeadless=false
 
     - name: Upload Test Logs
       if: always()
-      uses: actions/upload-artifact@v7.0.1
+      uses: actions/upload-artifact@v4
       with:
         name: Test logs
         path: logs/
@@ -32,7 +34,7 @@ jobs:
 
     - name: Upload Screenshots
       if: always()
-      uses: actions/upload-artifact@v7.0.1
+      uses: actions/upload-artifact@v4
       with:
         name: screenshot
         path: screenshot/
@@ -40,7 +42,7 @@ jobs:
 
     - name: Upload Test Reports
       if: always()
-      uses: actions/upload-artifact@v7.0.1
+      uses: actions/upload-artifact@v4
       with:
         name: Test Reports
         path: report.html
@@ -56,8 +58,15 @@ jobs:
       run: |
         $ErrorActionPreference = 'Continue'
         New-Item -ItemType Directory -Force -Path public/extent-reports | Out-Null
-        if (Test-Path report.html) { Copy-Item report.html public/extent-reports/ -Force }
-        if (Test-Path screenshot) { Copy-Item screenshot -Destination public/extent-reports/ -Recurse -Force }
+
+        if (Test-Path report.html) {
+          Copy-Item report.html public/extent-reports/ -Force
+        }
+
+        if (Test-Path screenshot) {
+          Copy-Item screenshot -Destination public/extent-reports/ -Recurse -Force
+        }
+
         Get-ChildItem -Recurse
 
     - name: Deploy
