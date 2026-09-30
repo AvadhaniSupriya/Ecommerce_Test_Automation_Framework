@@ -54,7 +54,7 @@ public class TestBase{
 	}
 
 	
-	/@AfterMethod(alwaysRun=true)
+	@AfterMethod(alwaysRun=true)
 	public void teardown()
 	{
 		
