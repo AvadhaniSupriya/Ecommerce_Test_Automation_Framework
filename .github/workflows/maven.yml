@@ -28,6 +28,7 @@ jobs:
       with:
         name: Test logs
         path: logs/
+        if-no-files-found: ignore
 
     - name: Upload Screenshots
       if: always()
@@ -35,6 +36,7 @@ jobs:
       with:
         name: screenshot
         path: screenshot/
+        if-no-files-found: ignore
 
     - name: Upload Test Reports
       if: always()
@@ -42,6 +44,7 @@ jobs:
       with:
         name: Test Reports
         path: report.html
+        if-no-files-found: ignore
 
     - name: Test Execution Status
       if: always()
@@ -49,11 +52,13 @@ jobs:
 
     - name: Copy Report to gh-pages Folder
       if: always()
+      shell: pwsh
       run: |
-        mkdir -p public/extent-reports
-        cp -R report.html public/extent-reports/
-        cp -R screenshot/ public/extent-reports/screenshot/
-        ls -l
+        $ErrorActionPreference = 'Continue'
+        New-Item -ItemType Directory -Force -Path public/extent-reports | Out-Null
+        if (Test-Path report.html) { Copy-Item report.html public/extent-reports/ -Force }
+        if (Test-Path screenshot) { Copy-Item screenshot -Destination public/extent-reports/ -Recurse -Force }
+        Get-ChildItem -Recurse
 
     - name: Deploy
       if: always()
