@@ -1,16 +1,118 @@
-2026-09-30 10:09:03 [main] com.ui.pages.HomePage Launching Browser  
-2026-09-30 10:09:18 [main] com.ui.pages.HomePage Clicking on the Sign-In Button 
-2026-09-30 10:09:22 [main] com.ui.pages.HomePage Click on Sign-In Button for Login 
-2026-09-30 10:09:65 [main] com.ui.pages.HomePage Click operation performed on the element 
-2026-09-30 10:09:90 [main] com.ui.pages.LoginPage Text entered 
-2026-09-30 10:09:04 [main] com.ui.pages.LoginPage Text entered 
-2026-09-30 10:09:48 [main] com.ui.pages.LoginPage Click operation performed on the element 
-2026-09-30 10:09:76 [main] com.ui.pages.MyAccountPage Text entered 
-2026-09-30 10:09:13 [main] com.ui.pages.MyAccountPage Elements found and getting the text 
-2026-09-30 10:09:54 [main] com.ui.pages.SearchResultPage Click operation performed on the element 
-2026-09-30 10:09:95 [main] com.ui.pages.ProductDetailPage Click operation performed on the element 
-2026-09-30 10:09:98 [main] com.ui.pages.ProductDetailPage Click operation performed on the element using Expilict Waits  
-2026-09-30 10:09:32 [main] com.ui.pages.ShoppingCartPage Click operation performed on the element 
-2026-09-30 10:09:40 [main] com.ui.pages.ConfirmAddressPage Click operation performed on the element 
-2026-09-30 10:09:68 [main] com.ui.pages.ShipmentPage Click operation performed on the element 
-2026-09-30 10:09:75 [main] com.ui.pages.ShipmentPage Click operation performed on the element 
+2026-09-30 10:09:79 [main] com.ui.listeners.TestListener Test Suite Started 
+2026-09-30 10:09:68 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:68 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:11 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener loginExcelTest 
+2026-09-30 10:09:12 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Verifies with the valid user is able to login into application using Excel 
+2026-09-30 10:09:12 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener [e2e, sanity] 
+2026-09-30 10:09:13 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:13 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:17 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener loginCSVTest 
+2026-09-30 10:09:17 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener Verifies with the valid user is able to login into application using CSV 
+2026-09-30 10:09:17 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener [e2e, sanity] 
+2026-09-30 10:09:17 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:17 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:56 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:58 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:74 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:81 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:89 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:91 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:28 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:29 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:33 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener loginExcelTest PASSED 
+2026-09-30 10:09:33 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener loginCSVTest PASSED 
+2026-09-30 10:09:13 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:20 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:67 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener loginTest 
+2026-09-30 10:09:68 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener Verifies with the valid user is able to login into application using TestNG data Providers 
+2026-09-30 10:09:68 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener [e2e, sanity] 
+2026-09-30 10:09:68 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:68 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:66 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener loginTest 
+2026-09-30 10:09:66 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Verifies that user should not be able to login into application with invalid creds and display proper error message  
+2026-09-30 10:09:66 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener [e2e, sanity] 
+2026-09-30 10:09:66 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:66 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:95 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:09 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:10 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:20 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:24 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:33 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:42 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:57 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:64 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener loginTest FAILED 
+2026-09-30 10:09:64 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener expected [Omkar Gorivale] but found [Supriya Gorivale] 
+2026-09-30 10:09:64 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener Capturing screenshot for failed test cases 
+2026-09-30 10:09:65 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener loginTest PASSED 
+2026-09-30 10:09:88 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener Aattching screenshot for failed test cases 
+2026-09-30 10:09:38 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:81 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:80 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:80 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:18 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener loginTest 
+2026-09-30 10:09:18 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener Verifies with the valid user is able to login into application using TestNG data Providers 
+2026-09-30 10:09:18 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener [e2e, sanity] 
+2026-09-30 10:09:18 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:18 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:74 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:82 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:95 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:10 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:11 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:26 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:51 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:54 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener loginTest PASSED 
+2026-09-30 10:09:70 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:41 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:31 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener addAddress 
+2026-09-30 10:09:31 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Add new Address 
+2026-09-30 10:09:31 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener [smoke, e2e, sanity] 
+2026-09-30 10:09:45 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener addAddress FAILED 
+2026-09-30 10:09:45 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="Add my first address"]"}
+  (Session info: chrome=154.0.8037.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bdd04ef77ccdc9dadf2678a9968f0cf3, findElement {value=//a[@title="Add my first address"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 154.0.8037.58, chrome: {chromedriverVersion: 154.0.8037.92 (334b65d254cc..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63770}, goog:processID: 23540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63770/devtoo..., se:cdpVersion: 154.0.8037.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bdd04ef77ccdc9dadf2678a9968f0cf3 
+2026-09-30 10:09:45 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Capturing screenshot for failed test cases 
+2026-09-30 10:09:80 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Aattching screenshot for failed test cases 
+2026-09-30 10:09:59 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:59 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:11 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Launching Browser  
+2026-09-30 10:09:41 [TestNG-test-UI Test Automation-1] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:98 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:27 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:80 [TestNG-test-UI Test Automation-1] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:23 [TestNG-test-UI Test Automation-1] com.ui.pages.MyAccountPage Text entered 
+2026-09-30 10:09:33 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Clicking on the Sign-In Button 
+2026-09-30 10:09:33 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click on Sign-In Button for Login 
+2026-09-30 10:09:74 [TestNG-test-UI Test Automation-1] com.ui.pages.MyAccountPage Elements found and getting the text 
+2026-09-30 10:09:75 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener checkoutTest 
+2026-09-30 10:09:75 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener Verify if the user logged in able to place the order 
+2026-09-30 10:09:75 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener [smoke, e2e, sanity] 
+2026-09-30 10:09:16 [TestNG-test-UI Test Automation-1] com.ui.pages.SearchResultPage Click operation performed on the element 
+2026-09-30 10:09:68 [TestNG-test-UI Test Automation-1] com.ui.pages.ProductDetailPage Click operation performed on the element 
+2026-09-30 10:09:92 [TestNG-test-UI Test Automation-2] com.ui.pages.HomePage Click operation performed on the element 
+2026-09-30 10:09:11 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:28 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Text entered 
+2026-09-30 10:09:10 [TestNG-test-UI Test Automation-2] com.ui.pages.LoginPage Click operation performed on the element 
+2026-09-30 10:09:11 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener verifyProductSearchTest 
+2026-09-30 10:09:11 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Verify if the logged in user is able to search for a product and correct products are displayed 
+2026-09-30 10:09:11 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener [smoke, e2e, sanity] 
+2026-09-30 10:09:31 [TestNG-test-UI Test Automation-1] com.ui.pages.ProductDetailPage Click operation performed on the element using Expilict Waits  
+2026-09-30 10:09:35 [TestNG-test-UI Test Automation-2] com.ui.pages.MyAccountPage Text entered 
+2026-09-30 10:09:44 [TestNG-test-UI Test Automation-2] com.ui.pages.MyAccountPage Elements found and getting the text 
+2026-09-30 10:09:13 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener verifyProductSearchTest FAILED 
+2026-09-30 10:09:13 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener expected [true] but found [false] 
+2026-09-30 10:09:13 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Capturing screenshot for failed test cases 
+2026-09-30 10:09:17 [TestNG-test-UI Test Automation-1] com.ui.pages.ShoppingCartPage Click operation performed on the element 
+2026-09-30 10:09:27 [TestNG-test-UI Test Automation-2] com.ui.listeners.TestListener Aattching screenshot for failed test cases 
+2026-09-30 10:09:65 [TestNG-test-UI Test Automation-1] com.ui.pages.ConfirmAddressPage Click operation performed on the element 
+2026-09-30 10:09:78 [TestNG-test-UI Test Automation-1] com.ui.pages.ShipmentPage Click operation performed on the element 
+2026-09-30 10:09:10 [TestNG-test-UI Test Automation-1] com.ui.pages.ShipmentPage Click operation performed on the element 
+2026-09-30 10:09:13 [TestNG-test-UI Test Automation-1] com.ui.listeners.TestListener checkoutTest PASSED 
+2026-09-30 10:09:21 [main] com.ui.listeners.TestListener Test Suite Ended 
