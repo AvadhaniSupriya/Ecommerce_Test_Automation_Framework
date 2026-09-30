@@ -1,9 +1,10 @@
 package com.ui.tests;
 
-import static com.constants.Browser.*;
+
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -13,7 +14,7 @@ import com.ui.pages.HomePage;
 import com.utility.BrowserUtility;
 import com.utility.LambdaTestUtility;
 
-public class TestBase {
+public class TestBase{
 	
 	protected HomePage homePage;
 	
@@ -39,7 +40,7 @@ public class TestBase {
 			
 		{
 		
-		
+		//run into local machine
 		 homePage = new HomePage(Browser.valueOf(browser.toUpperCase()),isHeadless);
 		}
 		
@@ -53,7 +54,7 @@ public class TestBase {
 	}
 
 	
-	
+	/*@AfterMethod(alwaysRun=true)
 	public void teardown()
 	{
 		
@@ -70,5 +71,5 @@ public class TestBase {
 		}
 		
 		
-	}
+	}*/
 }

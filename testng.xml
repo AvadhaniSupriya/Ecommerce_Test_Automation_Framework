@@ -4,6 +4,10 @@
   <test name="UI Test Automation">
     <classes>
        <class name="com.ui.tests.LoginTest"/>
+       <class name="com.ui.tests.InvalidLoginTest"/>
+       <class name="com.ui.tests.AddNewFirstAddressTest"/>
+       <class name="com.ui.tests.ProductCheckoutTest"/>
+       <class name="com.ui.tests.SearchProductTest"/>
        <parameter name="browser" value="${browser}"></parameter>
        <parameter name="isLambda" value="${isLambda}"></parameter>
        <parameter name="isHeadless" value="${isHeadless}"></parameter>

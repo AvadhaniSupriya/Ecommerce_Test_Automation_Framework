@@ -16,23 +16,23 @@ public class LoginTest extends TestBase{
 	
 	
 
-	@Test(description = "Verifies with the valid user is able to login into application",groups= {"e2e","sanity"},dataProviderClass=com.ui.dataproviders.LoginDataProvider.class,dataProvider="LoginTestDataProvider")
+	@Test(description = "Verifies with the valid user is able to login into application using TestNG data Providers",groups= {"e2e","sanity"},dataProviderClass=com.ui.dataproviders.LoginDataProvider.class,dataProvider="LoginTestDataProvider")
 	public void loginTest(User user)
 	{
 		
-		assertEquals(homePage.gotoLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Supriya Gorivale");
+		assertEquals(homePage.gotoLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Omkar Gorivale");
 	}
 
 	
-	@Test(description = "Verifies with the valid user is able to login into application",groups= {"e2e","sanity"},dataProviderClass=com.ui.dataproviders.LoginDataProvider.class,dataProvider="LoginTestCSVDataProvider",retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
+	@Test(description = "Verifies with the valid user is able to login into application using CSV",groups= {"e2e","sanity"},dataProviderClass=com.ui.dataproviders.LoginDataProvider.class,dataProvider="LoginTestCSVDataProvider",retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
 	public void loginCSVTest(User user)
 	{
 		
-		assertEquals(homePage.gotoLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Supriya Gorivale");
+		assertEquals(homePage.gotoLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(),"Omkar Gorivale");
 	}
 	
 	
-	@Test(description = "Verifies with the valid user is able to login into application",groups= {"e2e","sanity"},dataProviderClass=com.ui.dataproviders.LoginDataProvider.class,dataProvider="LoginTestExcelDataProvider")
+	@Test(description = "Verifies with the valid user is able to login into application using Excel",groups= {"e2e","sanity"},dataProviderClass=com.ui.dataproviders.LoginDataProvider.class,dataProvider="LoginTestExcelDataProvider")
 	public void loginExcelTest(User user)
 	{
 		

@@ -19,7 +19,7 @@ public final class HomePage extends BrowserUtility{
 		
 		
 		super(browserName,isHeadless);
-		logger.info("Launching Browser in Headless Mode");
+		logger.info("Launching Browser ");
 		maximizeWindow();
 		//goToWebsite(readProperty(QA,"URL"));//this from Properties file
 		goToWebsite(JSONUtility.readJson(QA).getUrl());
@@ -51,7 +51,7 @@ public final class HomePage extends BrowserUtility{
 	public LoginPage gotoLoginPage()
 	{
 		
-		
+		logger.info("Clicking on the Sign-In Button");
 		LoginPage loginPage= new LoginPage(getDriver());
 		logger.info("Click on Sign-In Button for Login");
 		clickOn(SIGN_IN_LINK_LOCATOR);
