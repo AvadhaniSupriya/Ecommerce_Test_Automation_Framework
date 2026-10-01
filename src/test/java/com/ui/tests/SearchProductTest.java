@@ -17,7 +17,7 @@ public class SearchProductTest extends TestBase{
 	private static final String EMAIL_ADDRESS="waxopab51@kikaga.com";
 	private static final String PASSWORD="Newjob@1910";
 	
-	private static final String SEARCH_TERM="Mens Wallet";
+	private static final String SEARCH_TERM="Printed Summer Dress";
 	
 	private MyAccountPage myaccountPage;
 	
